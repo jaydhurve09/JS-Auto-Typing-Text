@@ -28,4 +28,4 @@ const intervalId = setInterval(() => {
   if(wordIdx === wordsList.length-1){
     wordIdx=0
   }
-}, 600); //delay in milliseconds node script.js
+}, 800); //delay in milliseconds node script.js
