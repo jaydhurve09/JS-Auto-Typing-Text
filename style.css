@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+h2{
+    color: brown;
+    font-size: 2.5rem;
+}
+
+span{
+    color: blueviolet;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span::after{
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 40px;
+    background-color: blueviolet;
+    margin-left: 4px;
+
+}
